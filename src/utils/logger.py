@@ -5,7 +5,7 @@ from datetime import datetime
 log_dir="logs"
 os.makedirs(log_dir,exist_ok=True)
 
-file_name=os.path.join(log_dir,f"log_{datetime.now().strftime("%Y-%m-%d")}.log")
+file_name=os.path.join(log_dir,f"log_{datetime.now().strftime('%Y-%m-%d')}.log")
 
 logging.basicConfig(
     filename=file_name,format=("%(asctime)s - %(levelname)s - %(message)s"),level=logging.INFO)
