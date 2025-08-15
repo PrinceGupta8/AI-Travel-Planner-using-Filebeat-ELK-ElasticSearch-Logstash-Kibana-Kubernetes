@@ -9,13 +9,13 @@ with st.form("planner_form"):
     submitted=st.form_submit_button("Generate Itinary")
 
     if submitted:
-        planner=TravelPlanner()
-        planner.set_city(city)
-        planner.set_interests(interests)
-        itinary=planner.create_itinary()
+        if city and interests:
+            planner=TravelPlanner()
+            planner.set_city(city)
+            planner.set_interests(interests)
+            itinary=planner.create_itinary()
 
-        st.subheader("Your Itinary : ")
-        st.markdown(itinary)
-    else:
-        st.warning("Please fill city and interess to move forward")
-        
+            st.subheader("Your Itinary : ")
+            st.markdown(itinary)
+        else:
+            st.warning("Please fill city and interests to move forward")

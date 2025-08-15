@@ -25,7 +25,7 @@ class TravelPlanner:
 
     def set_interests(self,interests):
         try:
-            self.interests=interests
+            self.interests = [i.strip() for i in interests.split(",")]
             self.messages.append(HumanMessage(content=interests))
             logger.info("interests set successfuly")
         except Exception as e:
@@ -36,8 +36,10 @@ class TravelPlanner:
         try:
             itinary=generate_itinary(city=self.city,interests=self.interests)
             self.itinary=itinary
-            self.messages.append(AIMessage(content=self.itinary))
+            self.messages.append(AIMessage(content=itinary))
             logger.info("itinary generated successfuly")
+            return itinary
+             
         except Exception as e:
             logger.error(msg=f"error while generated itinary :{e}")
             raise CostomException("failed to generated itinary",e)

@@ -3,7 +3,7 @@ import sys
 class CostomException(Exception):
     def __init__(self,message:str,error_detail:Exception=None):
         self.error_message=self.get_detail_error_message(message,error_detail)
-        super().error_message
+        super().__init__(self.error_message)
 
 
     def get_detail_error_message(self,message,error_detail):

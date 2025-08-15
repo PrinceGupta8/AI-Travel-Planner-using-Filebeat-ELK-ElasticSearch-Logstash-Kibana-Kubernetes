@@ -1,0 +1,6 @@
+2025-08-16 01:41:49,464 - INFO - city set successfuly
+2025-08-16 01:41:49,476 - INFO - interests set successfuly
+2025-08-16 01:41:49,476 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 01:43:30,574 - INFO - city set successfuly
+2025-08-16 01:43:30,591 - INFO - interests set successfuly
+2025-08-16 01:43:30,591 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
