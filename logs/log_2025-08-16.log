@@ -4,3 +4,66 @@
 2025-08-16 01:43:30,574 - INFO - city set successfuly
 2025-08-16 01:43:30,591 - INFO - interests set successfuly
 2025-08-16 01:43:30,591 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 01:55:26,847 - INFO - city set successfuly
+2025-08-16 01:55:26,847 - INFO - interests set successfuly
+2025-08-16 01:55:26,847 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 01:55:29,108 - INFO - city set successfuly
+2025-08-16 01:55:29,108 - INFO - interests set successfuly
+2025-08-16 01:55:29,108 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 02:03:53,279 - INFO - city set successfuly
+2025-08-16 02:03:53,280 - INFO - interests set successfuly
+2025-08-16 02:03:53,280 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 02:17:13,063 - INFO - city set successfuly
+2025-08-16 02:17:13,063 - INFO - interests set successfuly
+2025-08-16 02:17:13,063 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 02:24:54,920 - INFO - city set successfuly
+2025-08-16 02:24:54,920 - INFO - interests set successfuly
+2025-08-16 02:24:54,921 - ERROR - error while generated itinary :ChatPromptTemplate.from_template() missing 1 required positional argument: 'template'
+2025-08-16 02:27:39,190 - INFO - city set successfuly
+2025-08-16 02:27:39,190 - INFO - interests set successfuly
+2025-08-16 02:27:39,205 - ERROR - error while generated itinary :3 validation errors for AIMessage
+content.str
+  Input should be a valid string [type=string_type, input_value=[HumanMessage(content='Yo..., response_metadata={})], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.str
+  Input should be a valid string [type=string_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.dict[any,any]
+  Input should be a valid dictionary [type=dict_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-08-16 02:35:43,335 - INFO - city set successfuly
+2025-08-16 02:35:43,335 - INFO - interests set successfuly
+2025-08-16 02:35:43,335 - ERROR - error while generated itinary :3 validation errors for AIMessage
+content.str
+  Input should be a valid string [type=string_type, input_value=[HumanMessage(content='Yo..., response_metadata={})], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.str
+  Input should be a valid string [type=string_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.dict[any,any]
+  Input should be a valid dictionary [type=dict_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-08-16 02:36:08,828 - INFO - city set successfuly
+2025-08-16 02:36:08,828 - INFO - interests set successfuly
+2025-08-16 02:36:08,828 - ERROR - error while generated itinary :3 validation errors for AIMessage
+content.str
+  Input should be a valid string [type=string_type, input_value=[HumanMessage(content='Yo..., response_metadata={})], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.str
+  Input should be a valid string [type=string_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+content.list[union[str,dict[any,any]]].0.dict[any,any]
+  Input should be a valid dictionary [type=dict_type, input_value=HumanMessage(content='You...}, response_metadata={}), input_type=HumanMessage]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-08-16 02:40:40,315 - INFO - city set successfuly
+2025-08-16 02:40:40,315 - INFO - interests set successfuly
+2025-08-16 02:40:44,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 02:40:44,693 - INFO - itinary generated successfuly
+2025-08-16 02:42:11,272 - INFO - city set successfuly
+2025-08-16 02:42:11,272 - INFO - interests set successfuly
+2025-08-16 02:42:14,628 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 02:42:14,633 - INFO - itinary generated successfuly
+2025-08-16 02:47:21,083 - INFO - city set successfuly
+2025-08-16 02:47:21,083 - INFO - interests set successfuly
+2025-08-16 02:47:24,722 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 02:47:24,728 - INFO - itinary generated successfuly
